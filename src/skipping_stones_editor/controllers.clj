@@ -9,4 +9,5 @@
   (osc-send client "/test/voice" (int 0)))
 
 (defn editor [layout]
+  (send-message)
   (layout [:p "Welcome to skpping-stones-editor"]))
