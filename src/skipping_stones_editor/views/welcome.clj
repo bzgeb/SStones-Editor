@@ -9,4 +9,4 @@
            [:p "Welcome to skipping-stones-editor"]))
 
 (defpage "/editor" []
-  (controllers/editor))
+  (controllers/editor common/layout))
